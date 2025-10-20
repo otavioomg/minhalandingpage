@@ -3,141 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta name="description" content="Meu portfólio em meu site onde mostro meus conhecimentos, projetos e habilidades como desenvolvedor front-end e em breve back-end.">
+    <meta name="keywords" content="Otavio OMG, Desenvolvedor Front-end, Portfólio, HTML, CSS, JavaScript, React, Python, MySQL, Bootstrap, Tailwind CSS">
+    <meta name="author" content="Otavio OMG Dev">
+    <meta name="author" content="Otavio Moreira Gonçalves">
+    <title>Dev Otavio OMG</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=100&id=UGYn5TapNioV&format=png&color=000000">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logopixelart.png" type="image/x-icon">
+    <style type="text/tailwindcss">
+      theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jersey+20&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav id="navbar-example2" class="navbar bg-dark px-3 mb-3">
-    <a class="navbar-brand text-white" href="#">PHP</a>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#scrollspyHeading1">História</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-white" href="#scrollspyHeading2">Mercado</a>
-      </li>
-      <li class="nav-item dropdown bg-dark">
-        <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Conteúdo</a>
-        <ul class="dropdown-menu bg-dark">
-          <li><a class="dropdown-item text-white" href="#scrollspyHeading3">Profissional</a></li>
-          <li><a class="dropdown-item text-white" href="#scrollspyHeading4">Ambiente</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item text-white" href="#scrollspyHeading5">Diferenças</a></li>
-          <li><hr class="dropdown-divider"></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">  
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3" data-bs-theme="dark">
+  <a class="navbar-brand" href="#"><img src="img/logopixelart.png" alt="Logo do Otavio OMG Dev" width="45px"></a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">Sobre mim</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Linguagens</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading3">Projetos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading4">Contato</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading5">Freelancer</a>
+    </li>
+    <!--<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+      </ul>
+    </li>
+  </ul>-->
+</nav>
+<h1 class="cssanimation leFadeInLeft sequence ca__fx-scifiDigitalReveal" id="horas"></h1>
+<h4 class="sobre_mim" id="scrollspyHeading1"></h4>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+  <div class="mx-auto max-w-md overflow-hidden rounded-xl bg-white shadow-md md:max-w-7xl">
+  <div class="md:flex">
+    <div class="md:shrink-0">
+      <img
+        class="h-58 w-full object-cover md:h-full md:w-58"
+        src="img/outraicon.jpg"
+        alt="Modern building architecture"
+      />
+    </div>
+    <div class="p-8">
+      <div class="text-sm font-semibold tracking-wide text-indigo-500 uppercase">Sobre mim</div>
+      
+      <p class="mt-2 text-gray-500">
+        Desenvolvedor Front-end especializado em Landing Pages de alta conversão. Autista e apaixonado por tecnologia desde os 14 anos, atualmente curso Desenvolvimento de Sistemas enquanto construo soluções com:<br>
+        → React, JavaScript, Tailwind CSS<br>
+        → Python + SQL para integrações
+        <br>
+        Meu portfólio demonstra projetos otimizados para performance e SEO. Ofereço:
+        <br>
+        Design responsivo e acessível
+        <br>
+        Integração com captura de leads
+        <br>
+        Entrega rápida e comunicação clara
+        <br>
+        ✉️ Vamos transformar sua ideia? otavioomgcontato@gmail.com
+      </p>
+    </div>
   </div>
-    <div id="scrollspyHeading1" class="card text-bg-info mb-3" style="max-width: 100%;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="/img/criadordophp.jpeg" class="img-fluid rounded-start" alt="Criador do PHP">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">História do PHP</h5>
-              <p class="card-text">O PHP (acrônimo recursivo para "PHP: Hypertext Preprocessor") foi criado em 1994 por Rasmus Lerdorf. Inicialmente, tratava-se de um conjunto de pequenos scripts em linguagem C para monitorar o tráfego em seu site pessoal. Em 1995, o código foi disponibilizado publicamente como PHP/FI (Form Interpreter), permitindo que outros desenvolvedores pudessem usá-lo e colaborar no seu desenvolvimento. Essa liberada foi o ponto de partida para a rápida evolução do PHP como uma linguagem de programação orientada ao desenvolvimento web dinâmico. Ao longo dos anos, o PHP ganhou funcionalidades, robustez e popularidade mundial, principalmente pela facilidade de integração com HTML e servidores web, consolidando-se como uma das linguagens mais usadas para desenvolvimento web. Atualmente, o PHP é mantido pela comunidade PHP Foundation, que aposta na evolução contínua da linguagem para manter sua relevância no mercado.​</p>
-            </div>
-          </div>
-        </div>
+</div>
+</div>
+  <h1 id="scrollspyHeading2">Linguagens e Frameworks</h1>
+  <div class="linguagens">
+        <div class="item"><img src="img/icons8-html-48.png" alt="HTML" title="HTML"></div>
+        <div class="item"><img src="img/icons8-css-48.png" alt="CSS" title="CSS"></div>
+        <div class="item"><img src="img/icons8-javascript-48.png" alt="JavaScript" title="JavaScript"></div>
+        <div class="item"><img src="img/icons8-python-48.png" alt="Python" title="Python"></div>
+        <div class="item"><img src="img/icons8-logo-java-coffee-cup-48.png" alt="Java" title="Java (em estudo)"></div>
+        <div class="item"><img src="img/icons8-mysql-48.png" alt="MySQL" title="MySQL"></div>
+        <div class="item"><img src="img/icons8-react-48.png" alt="React" title="React"></div>
+        <div class="item"><img src="img/icons8-bootstrap-48.png" alt="Bootstrap" title="Bootstrap"></div>
+        <div class="item"><img src="img/icons8-tailwindcss-48.png" alt="Tailwind" title="Tailwind"></div>
       </div>
-      <div id="scrollspyHeading2" class="card text-bg-primary mb-3" style="max-width: 100%;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="/img/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg" class="img-fluid rounded-start" alt="Desenvolvedor PHP">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Mercado de Trabalho para Desenvolvedores PHP em 2025</h5>
-              <p class="card-text">Apesar de ter sido criado há quase 30 anos, o PHP continua relevante no mercado de trabalho. Estima-se que cerca de 75% dos sites ativos ainda utilizam PHP, o que assegura uma demanda constante por desenvolvedores que dominem a linguagem, especialmente para manutenção e desenvolvimento de sistemas legados, blogs, sites institucionais e plataformas baseadas em WordPress. Além disso, frameworks modernos como Laravel têm rejuvenescido a linguagem, trazendo práticas atuais de desenvolvimento ágil e arquitetura robusta. No Brasil e em outros mercados, a busca por desenvolvedores PHP é frequente, com oportunidades variando desde posições para iniciantes até cargos avançados. Desenvolvedores PHP encontram salários competitivos, sobretudo ao agregar conhecimentos em banco de dados, APIs e ferramentas modernas de desenvolvimento.​</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="scrollspyHeading3" class="card text-bg-dark mb-3" style="max-width: 100%;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="/img/programadorcom3monitores.jpg" class="img-fluid rounded-start" alt="Programador com 3 monitores">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Perfil Profissional do Desenvolvedor PHP</h5>
-              <p class="card-text">Para atuar no mercado como programador PHP, é necessário dominar não apenas a sintaxe básica da linguagem, mas também conceitos avançados como programação orientada a objetos, padrões de projeto, e o uso de frameworks populares (Laravel, Symfony, CakePHP). Além disso, é indispensável conhecimento em banco de dados relacionais como MySQL, SQL Server e suas integrações com PHP. Habilidades em HTML, CSS e JavaScript são importantes para lidar com a transição entre frontend e backend, além de ferramentas e bibliotecas complementares como Ajax, jQuery e Bootstrap. Conhecimento em controle de versão (Git) é fundamental para trabalhar em equipe, assim como a familiaridade com servidores Linux para ambientes de produção. Ter atenção a boas práticas de segurança (como proteção contra SQL Injection, XSS e CSRF) é crucial para a construção de aplicações confiáveis.​</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="scrollspyHeading4" class="card text-bg-warning mb-3" style="max-width: 100%;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="/img/desenvolvedor-identificando-problemas-de-servidor.jpg" class="img-fluid rounded-start" alt="Desenvolvedor identificando problemas de servidor">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Ambiente de Desenvolvimento: XAMPP e Visual Studio Code</h5>
-              <p class="card-text">Um ambiente de desenvolvimento eficiente é essencial para acelerar o aprendizado e a produção de código. O XAMPP é um pacote que instala localmente um servidor Apache, MySQL, PHP e Perl, permitindo testar aplicações PHP sem necessidade de configurar servidores externos. Visual Studio Code (VSCode) é um editor de código leve, gratuito e extensível, com plugins específicos para PHP (como PHP IntelePhense para autocompletar e análise de código, Code Runner para execução de scripts e outras ferramentas que aumentam a produtividade). A integração entre XAMPP e VSCode é feita configurando o servidor local para servir os arquivos PHP enquanto o VSCode oferece um ambiente amigável para codificação, testes e debugging. Esse ambiente integrado facilita o trabalho de estudantes e profissionais de programação.​​</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="scrollspyHeading5" class="card border-primary mb-3" style="max-width: 100%;">
-        <div class="card-header text-bg-primary" style="text-align: center;">Diferenças entre Backend, Frontend e Full Stack</div>
-        <h5 class="card-title">No desenvolvimento web, entendem-se três papéis ou áreas principais:</h5>
-        <div class="card-group">
-          <div class="card">
-            <img src="/img/backend.jpg" class="card-img-top" alt="Back-end">
-            <div class="card-body">
-              <h5 class="card-title">Back-end</h5>
-              <p class="card-text">Refere-se à parte do sistema que executa a lógica do negócio, manipula dados, autenticação, autorizações e interação direta com bancos de dados e servidores. O PHP é uma linguagem amplamente usada no backend, responsável por processar informações, acessar dados e enviar respostas dinâmicas ao frontend.</p>
-              <p class="card-text"><small class="text-body-secondary">Exemplo: PHP, Python, Java, Ruby, Go, entre outras.</small></p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="/img/frontend.jpg" class="card-img-top" alt="Front-end">
-            <div class="card-body">
-              <h5 class="card-title">Front-end</h5>
-              <p class="card-text">Envolve tudo aquilo que o usuário visualiza e interage diretamente, como interfaces, botões, formulários, animações e design. Tecnologias comuns são HTML, CSS e JavaScript, que juntos formam a camada que traz a experiência visual do site ou aplicação.</p>
-              <p class="card-text"><small class="text-body-secondary">Exemplo: HTML, CSS, JavaScript, entre outras.</small></p>
-            </div>
-          </div>
-          <div class="card">
-            <img src="/img/fullstack.jpg" class="card-img-top" alt="Full stack">
-            <div class="card-body">
-              <h5 class="card-title">Full Stack</h5>
-              <p class="card-text">Profissionais full stack possuem conhecimento tanto em frontend quanto backend, sendo capazes de trabalhar em todas as camadas do desenvolvimento web. Essa versatilidade os torna aptos a gerir projetos com visão ampla, do servidor até a interface do usuário.</p>
-              <p class="card-text"><small class="text-body-secondary">Exemplo: Front-end + Back-end</small></p>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-      <center><div class="card text-bg-dark" id="scrollspyHeading6" style="max-width: 18rem;">
-        <img src="/img/outraicon.jpg" class="card-img" alt="Otavio OMG Dev">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Otávio Moreira</h5>
-          <p class="card-text">Desenvolvedor Front-end e Scrum</p>
-          <p class="card-text"><small>Otavio OMG Dev</small></p>
-          <a rel="noopener" href="https://otavioomgdev.vercel.app/" target="_blank"><button type="button" class="btn btn-outline-light"><img src="https://img.icons8.com/?size=40&id=60995&format=png&color=FFFFFF" alt="Otavio OMG Dev Website"></button></a>
-        </div>
-      </div></center>
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p>Copyright 2025 - Todos os direitos reservados</p>
-        <a href="https://www.instagram.com/otavioomgdev/" target="_blank" rel="noopener"><img src="https://img.icons8.com/?size=50&id=85154&format=png&color=FFFFFF" alt="Instagram"></a>
-        <a href="https://www.linkedin.com/in/ot%C3%A1vio-moreira-gon%C3%A7alves-420958207/" target="_blank" rel="noopener"><img src="https://img.icons8.com/?size=50&id=98960&format=png&color=FFFFFF" alt="LinkedIn"></a>
-        <a href="https://github.com/otavioomg" target="_blank" rel="noopener"><img src="https://img.icons8.com/?size=40&id=106562&format=png&color=FFFFFF" alt="GitHub"></a>
-        <a href="https://otavioomgdev.vercel.app/" target="_blank" rel="noopener"><img src="https://img.icons8.com/?size=40&id=60995&format=png&color=FFFFFF" alt="Otavio OMG Dev"></a>
+  <h1 id="scrollspyHeading3">Projetos</h1>
+  <div class="teclando"><center><img src="img/6vIk.gif" alt="Codando" class="codando"></center></div>
+  <p class="sph3">Confira alguns dos meus projetos no GitHub:</p>
+  <center><div class="card-group row-auto justify-content-center">
+  <div class="col-sm-3 mb-3 mb-sm-0">
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title">Lista de Tarefas</h5>
+        <p class="card-text">Projeto de um curso que eu fiz no YouTube, Usei HTML, CSS e Javascript.</p>
+        <a href="https://github.com/otavioomg/listadetarefas" target="_blank" class="btn btn-dark" rel="noopener"><img src="img/icons8-github-24.png" alt="GitHub"></a>
+        <a href="https://listadetarefas-five-silk.vercel.app/" target="_blank" class="btn btn-dark" rel="noopener"><img src="img/icons8-internet-24.png" alt="GitHub"></a>
       </div>
     </div>
   </div>
+  <div class="col-sm-3 mb-3 mb-sm-0">
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title">Agência Fake</h5>
+        <p class="card-text">Projeto de um curso que eu fiz no YouTube, Usei HTML e CSS.</p>
+        <a href="https://github.com/otavioomg/agenciafake" target="_blank" class="btn btn-dark" rel="noopener"><img src="img/icons8-github-24.png" alt="GitHub"></a>
+        <a href="https://agenciafake-beta.vercel.app/" target="_blank" class="btn btn-dark" rel="noopener"><img src="img/icons8-internet-24.png" alt="GitHub"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 mb-3 mb-sm-0">
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title">Pesquisa sobre PHP</h5>
+        <p class="card-text">Projeto de trabalho da escola técnica sobre PHP</p>
+        <a href="https://github.com/otavioomg/pesquisasobrephp" target="_blank" class="btn btn-dark" rel="noopener"><img src="img/icons8-github-24.png" alt="GitHub"></a>
+        <a href="https://pesquisasobrephp.netlify.app/" target="_blank" class="btn btn-dark" rel="noopener"><img src="img/icons8-internet-24.png" alt="GitHub"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 mb-3 mb-sm-0">
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title">Gemini + Python</h5>
+        <p class="card-text">Projeto que coloquei Gemini + Python rodando em um terminal</p>
+        <a href="https://github.com/otavioomg/gemini-no-terminal.git" target="_blank" class="btn btn-dark" rel="noopener"><img src="img/icons8-github-24.png" alt="GitHub"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 mb-3 mb-sm-0">
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title">Aulas de Java na Proz</h5>
+        <p class="card-text">Coisas que estou aprendendo em Java na Proz</p>
+        <a href="https://github.com/otavioomg/auladejavaproz" target="_blank" class="btn btn-dark" rel="noopener"><img src="img/icons8-github-24.png" alt="GitHub"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 mb-3 mb-sm-0">
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title">Treino de lógica com Python</h5>
+        <p class="card-text">Treinando minha lógica com Python</p>
+        <a href="https://github.com/otavioomg/treinodelogica.py" target="_blank" class="btn btn-dark" rel="noopener"><img src="img/icons8-github-24.png" alt="GitHub"></a>
+      </div>
+    </div>
+  </div>
+  </div></center>
+  <br>
+  <h1 id="scrollspyHeading4">Redes Sociais</h1>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example4" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-3" tabindex="0"></div>
+  <center><div class="tenor-gif-embed" data-postid="12219631563927990093" data-share-method="host" data-aspect-ratio="1.06294" data-width="40%"><a href="https://tenor.com/view/okay-gif-12219631563927990093">Okay Sticker</a>from <a href="https://tenor.com/search/okay-stickers">Okay Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script></center>
+  <br>
+  <center><a href="https://www.instagram.com/otavioomgdev/" target="_blank" rel="noopener" class="button-57" role="button"><span class="text"><img src="img/icons8-instagram-96.png" alt="Instagram"></span><span>@otavioomgdev</span></a>
+  <a href="https://www.youtube.com/@otavioomgdev" target="_blank" rel="noopener" class="button-57" role="button"><span class="text"><img src="img/icons8-youtube-96.png" alt="YouTube"></span><span>Otavio OMG Dev</span></a>
+  <a href="https://www.tiktok.com/@otavioomgdev" target="_blank" rel="noopener" class="button-57" role="button"><span class="text"><img src="img/icons8-tiktok-96.png" alt="YouTube"></span><span>@otavioomgdev</span></a>
+  <a href="https://github.com/otavioomg" target="_blank" rel="noopener" class="button-57" role="button"><span class="text"><img src="img/icons8-github-96.png" alt="GitHub"></span><span>@otavioomg</span></a>
+  <a href="https://www.linkedin.com/in/ot%C3%A1vio-moreira-gon%C3%A7alves-420958207/" target="_blank" rel="noopener" class="button-57" role="button"><span class="text"><img src="img/icons8-linkedin-96.png" alt="LinkedIn"></span><span>Otávio Moreira</span></a>
+  <a href="https://wa.me/5531995556660?text=Ol%C3%A1%20Ot%C3%A1vio%2C%20peguei%20seu%20n%C3%BAmero%20do%20seu%20portf%C3%B3lio%20e%20quero%20que%20voc%C3%AA%20me%20fa%C3%A7a%20um%20servi%C3%A7o." target="_blank" rel="noopener" class="button-57" role="button"><span class="text"><img src="img/icons8-whatsapp-96.png" alt="WhatsApp"></span><span>+55 31 9555-6660</span></a></center>
+  <h1 id="scrollspyHeading5">Freelancer</h1>
+  <center><div class="tenor-gif-embed" data-postid="22822247" data-share-method="host" data-aspect-ratio="1.78771" data-width="65%"><a href="https://tenor.com/view/watashi-ni-tenshi-money-watatan-anime-give-money-gif-22822247">Watashi Ni Tenshi Money GIF</a>from <a href="https://tenor.com/search/watashi+ni+tenshi-gifs">Watashi Ni Tenshi GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script></center>
+  <p class="informacao-freelancer">Plataformas onde eu faço o seu projeto Freelancer</p>
+  <center><a href="https://www.99freelas.com.br/user/otavioomg" target="_blank" rel="noopener" class="button-57" role="button"><span class="text"><img src="img/icons8-99-96.png" alt="99freelas"></span><span>otavioomg</span></a></center>
+</div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/letteranimation.min.js"></script>
+</body>
+<footer>
+    <div class="footer">
+        <p>© 2025 Otavio OMG Dev. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Otavio OMG Dev</p>
+        <p>Contato: otavioomgcontato@gmail.com</p>
+    </div>
 </footer>
 </html>
